@@ -1,0 +1,55 @@
+body {
+    background-color: black;
+}
+
+.page-header {
+    color: white;
+    font-family: Verdana;
+    font-size: 50px;
+    text-align: center;
+    font-weight: normal;
+}
+
+.download-link,
+a {
+    color: aquamarine;
+    font-size: 16px;
+    text-align: center;
+}
+
+.phone-video {
+    text-align: center;
+}
+
+.second-header {
+    font-family: Verdana;
+    font-weight: 300;
+    font-size: 42px;
+    color: white;
+    text-align: center;
+}
+
+.second-pharagraph {
+    color: rgb(205, 205, 205);
+    text-align: center;
+    font-family: Verdana;
+    font-size: 12px;
+}
+
+article {
+    text-align: center;
+}
+#cover {
+    width: 85%;
+}
+
+#phone {
+    padding-top: 20px;
+    width: 7%;
+}
+
+.copyright {
+    text-align: right;
+    color:rgb(149, 149, 149);
+    font-family: Verdana;
+}
