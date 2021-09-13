@@ -1,0 +1,134 @@
+html {
+    font-family: 'Helvetica';
+    font-size: 22px;
+    color:seashell;
+    text-align: center;
+    opacity: 0.9;
+    background-color: black;
+    margin: 0;
+}
+
+h2,
+h4,
+h5,
+li,
+#logo {
+    opacity: 0.5;
+}
+
+header {
+    width: 100%;
+    height: 69px;
+    display: block;
+    position: fixed;
+    top: 0px;
+    border-bottom: 1px solid rgb(119, 119, 119);
+    background-color: black;
+}
+
+#logo {
+    height: 50px;
+    float: left;
+    padding-left: 10px;
+
+}
+
+.nav {
+    float: right;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.nav li {
+    height: 100%;
+    display: table;
+    list-style-type: none;
+    float: left;
+    padding: 0px 20px;
+}
+
+.nav a {
+    color: white;
+    display: table-cell;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.banner-text {
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+    max-width: 1200px;
+    margin: 40px auto 40px auto;
+    display: flex;
+}
+
+.text {
+    margin: auto;
+    background-color: black;
+    width: 100%;
+}
+
+.image-container {
+    display: inline-flex;
+    max-width: 1000px;
+    height: auto;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-image img {
+    height: 200px;
+    width: 300px;
+    padding: 10px 10px;
+}
+
+.locations {
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    width: 1200px;
+    margin: 40px auto auto auto;
+    padding-top: 85px;
+}
+
+#text-top {
+    font-size: 43px;
+    font-weight: bold;
+}
+
+.box-container {
+    max-width: 1050px;
+    margin: 15px auto auto auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#box {
+    height: 300px;
+    padding: 20px;
+    margin-bottom: auto;
+    flex-basis: 30%;
+    box-sizing: border-box;
+    background-color: black;
+    opacity: 0.8;
+}
+
+.locations h4{
+    font-size: 22px;
+    font-weight: normal;
+    opacity: 1;
+}
+
+.locations h2{
+    opacity: 1;
+}
+
+#footer-txt2 {
+    float: left;
+    padding-left: 20px;
+}
