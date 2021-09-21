@@ -338,7 +338,8 @@ function closeLibrary() {
 }
 
 function getLocal(paletteObj) {
-  if (localPalettes.getItem("palettes") === null) {
+  let localPalettes;
+  if (localStorage.getItem("palettes") === null) {
     localPalettes = [];
   } else {
     const paletteObjects = JSON.parse(localStorage.getItem("palettes"));
