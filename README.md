@@ -11,9 +11,15 @@ My Linkedin: https://www.linkedin.com/in/mircea-dumitrescu-8581399a/
 My Github: https://github.com/zenandreas
 
 **My current projects:**
+
 Travel Project: [https://zenandreas.github.io/Travel%20Project/]
+
 BeatMaker: https://zenandreas.github.io/BeatMaker/
+
 ColorGenerator: https://zenandreas.github.io/Color%20Pallete/
+
 Dad Joke Generator: https://zenandreas.github.io/Dad-Joke-Generator/
+
 Todo List: https://zenandreas.github.io/TodoList/
+
 A simple HTML website(Tea Shop): https://zenandreas.github.io/Tea%20Shop/
