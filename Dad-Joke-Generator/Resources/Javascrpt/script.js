@@ -3,6 +3,12 @@
 
 const getJoke = document.querySelector(".get-joke");
 const tellAnother = document.querySelector(".another-joke");
+const lightBtn = document.querySelector(".light");
+const darkBtn = document.querySelector(".dark");
+
+const setTheme = function (theme) {
+  document.documentElement.className = theme;
+};
 
 const jokeList = [
   "I only know 25 letters of the alphabet. I don't know y.",
@@ -63,3 +69,23 @@ const jokeDisplay = {
 //EVENT LISTENERS
 
 getJoke.addEventListener("click", jokeDisplay.randomJoke);
+
+lightBtn.addEventListener("click", function () {
+  setTheme("light");
+  lightBtn.style.display = "none";
+  darkBtn.style.display = "";
+  document.querySelector("h1").classList.add("light");
+  document.querySelectorAll("p").forEach((element) => {
+    element.classList.add("light");
+  });
+});
+
+darkBtn.addEventListener("click", function () {
+  setTheme("dark");
+  lightBtn.style.display = "";
+  darkBtn.style.display = "none";
+  document.querySelector("h1").classList.remove("light");
+  document.querySelectorAll("p").forEach((element) => {
+    element.classList.remove("light");
+  });
+});

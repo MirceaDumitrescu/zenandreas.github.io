@@ -7,29 +7,40 @@
     <title>The Dad Joke Generator</title>
     <link rel="stylesheet" type="text/css" href="Resources/CSS/style.css">
 </head>
+<div class="toggle-container">
+      <!--sun icon-->
+      <button class="theme-btn light" title="Light mode">
+      <i class="fas fa-sun"></i>
+      </button>
+      <!--moon icon-->
+      <button class="theme-btn dark" style="display: none"title="Dark mode">
+      <i class="fas fa-moon"></i>
+      </button> 
+  </div>
 <!-- Title -->
     <div class="header">
     <h1>The Dad Joke Generator</h1>
     <img src="Resources/Images/Dad Joke Generator Logo.png" height="350px" width="400px">
-    <p id="mainText" >Want to tell the most cringe worthy, eye rolling, terrible jokes? Who better to ask than a Dad? Go ahead ask dad and be prepared for some of his shennanigans!</p>
+    <p id="mainText class="main-text" >Want to tell the most cringe worthy, eye rolling, terrible jokes? Who better to ask than a Dad? Go ahead ask dad and be prepared for some of his shennanigans!</p>
     </div>
-    <!-- Get a dad joke button -->
+
     <div class="joke-content">
         <div class="buttons">
     <button class="get-joke">Get A Dad Joke</button>   
-    <!-- Tell me another joke button-->
-    <!-- <button onclick="" class="another-joke">Tell Me Another!</button> -->
-</div>
+        </div>
     <div class="outputBox">
+        <div class="box-text">
     <p id="jokeSection"></p>
     <p id="jokeCount"></p>
+</div>
     </div>
     </div>
 <!-- created by section-->
-<footer>
+<div class="footer">
     <p class="copyright">Created by Andre, Benji & Mircea</p>
-</footer>
+</div>
 
     <script src="Resources/Javascrpt/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
 </body>
 </html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mystic Fortune Teller</title>
+    <link rel="stylesheet" type=text/css href="Resources/CSS/style.css">
+  </head>
+  <body>
+    <!--NAVIGATION BAR-->
+    <header>
+      <div class="logo">
+        <p>Fortune Teller 2021</p>
+      </div>
+      <a
+        href="javascript:void(0);"
+        class="hamburger-icon"
+        onclick="hamburgerMenu()"
+      >
+        <i class="fa fa-bars" id="menu"></i>
+      </a>
+      <div class="hamburger">
+        <li><a href="horoscope.html" target="_blank">Horoscope</a></li>
+        <li><a href="page3.html" target="_blank">Star story</a></li>
+        <li><a href="contact.html" target="_blank">Contact</a></li>
+        <li>
+          <a href="https://discord.gg/c2m8kK6bZz" target="_blank">Discord</a>
+        </li>
+      </div>
+      <div>
+        <nav class="navigationbar">
+          <li><a href="horoscope.html" target="_blank">Horoscope</a></li>
+          <li><a href="page3.html" target="_blank">Star story</a></li>
+          <li><a href="contact.html" target="_blank">Contact</a></li>
+        </nav>
+        <div class="discord">
+          <a href="https://discord.gg/c2m8kK6bZz" target="_blank">
+            <i class="fab fa-discord"></i>
+            <span>Join our Discord</span></a
+          >
+        </div>
+      </div>
+    </header>
+
+    <!-- HEADER CONTENT-->
+    <div id="headercontent">
+      <div class="title">
+        <h1>Mystic Fortune Teller</h1>
+        <p class="fortune-text">
+          Having a rough day? Need Guidance? want to see where you life is
+          going? Find out your fortune!
+        </p>
+        <p class="random-fortune">
+          <span class="fortune-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum nihil
+            omnis a cumque eaque recusandae voluptate aliquid quisquam illo, nam
+            ut eligendi, error dolor doloremque. Ducimus delectus neque eligendi
+            dolorum.</span
+          >
+        </p>
+        <hr />
+        <button id="askfortune" class="fortune-btn">
+          What is your Fortune?
+        </button>
+      </div>
+      <img
+        src="Resources/images/Mystic Fortune Teller.png"
+        alt="Mystic Fortune Teller Logo"
+        class="header-image"
+      />
+    </div>
+
+    <div class="content">
+      <video id="loopvideo" autoplay loop muted>
+        <source src="Resources/videos/Crystal Ball.mp4" type="video/mp4" />
+      </video>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <p id="andcopy">&copy; 2021 Andre, Benji & Mircea</p>
+    </footer>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"
+      integrity="sha512-Tn2m0TIpgVyTzzvmxLNuqbSJH3JP8jm+Cy3hvHrW7ndTDcJ1w5mBiksqDBb8GpE2ksktFvDB/ykZ0mDpsZj20w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="Resources/javascript/javascript.js"></script>
+  </body>
+</html>
