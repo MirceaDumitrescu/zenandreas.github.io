@@ -12,7 +12,7 @@ My Github: https://github.com/zenandreas
 
 **My current projects:**
 
-Travel Project: [https://zenandreas.github.io/Travel%20Project/]
+*Travel Project:* <a href="https://zenandreas.github.io/Travel%20Project/">Link</a>
 
 BeatMaker: https://zenandreas.github.io/BeatMaker/
 
