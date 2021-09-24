@@ -14,6 +14,8 @@ My Github: https://github.com/zenandreas
 
 *Travel Project: <a href="https://zenandreas.github.io/Travel%20Project/">Link</a>
 
+*Mystic Fortune Teller: <a href="https://zenandreas.github.io/Mystic-Fortune-Teller">Link</a>
+
 *BeatMaker: <a href="https://zenandreas.github.io/BeatMaker/">Link</a>
 
 *ColorGenerator: <a href="https://zenandreas.github.io/Color%20Pallete/">Link</a>
