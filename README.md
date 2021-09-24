@@ -12,14 +12,14 @@ My Github: https://github.com/zenandreas
 
 **My current projects:**
 
-*Travel Project:* <a href="https://zenandreas.github.io/Travel%20Project/">Link</a>
+*Travel Project: <a href="https://zenandreas.github.io/Travel%20Project/">Link</a>
 
-BeatMaker: https://zenandreas.github.io/BeatMaker/
+*BeatMaker: <a href="https://zenandreas.github.io/BeatMaker/">Link</a>
 
-ColorGenerator: https://zenandreas.github.io/Color%20Pallete/
+*ColorGenerator: <a href="https://zenandreas.github.io/Color%20Pallete/">Link</a>
 
-Dad Joke Generator: https://zenandreas.github.io/Dad-Joke-Generator/
+*Dad Joke Generator: <a href="https://zenandreas.github.io/Dad-Joke-Generator/">Link</a>
 
-Todo List: https://zenandreas.github.io/TodoList/
+*Todo List: <a href="https://zenandreas.github.io/TodoList/">Link</a>
 
-A simple HTML website(Tea Shop): https://zenandreas.github.io/Tea%20Shop/
+*A simple HTML website(Tea Shop): <a href="https://zenandreas.github.io/Tea%20Shop/">Link</a>
