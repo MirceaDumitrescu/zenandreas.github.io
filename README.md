@@ -10,18 +10,24 @@ My Linkedin: https://www.linkedin.com/in/mircea-dumitrescu-8581399a/
 
 My Github: https://github.com/zenandreas
 
-**My current projects:**
+**Practice projects:**
 
 *Travel Project: <a href="https://zenandreas.github.io/Travel%20Project/">Link</a>
-
-*Mystic Fortune Teller: <a href="https://zenandreas.github.io/Fortunes">Link</a>
 
 *BeatMaker: <a href="https://zenandreas.github.io/BeatMaker/">Link</a>
 
 *ColorGenerator: <a href="https://zenandreas.github.io/Color%20Pallete/">Link</a>
 
-*Dad Joke Generator: <a href="https://zenandreas.github.io/Dad-Joke-Generator/">Link</a>
-
 *Todo List: <a href="https://zenandreas.github.io/TodoList/">Link</a>
 
 *A simple HTML website(Tea Shop): <a href="https://zenandreas.github.io/Tea%20Shop/">Link</a>
+
+**COLABS**
+
+*Sage Cafe: <a href="https://github.com/aromero18020/Sage-Cafe">Link</a>
+
+*Mystic Fortune Teller: <a href="https://zenandreas.github.io/Fortunes">Link</a>
+
+*Dad Joke Generator: <a href="https://zenandreas.github.io/Dad-Joke-Generator/">Link</a>
+
+
