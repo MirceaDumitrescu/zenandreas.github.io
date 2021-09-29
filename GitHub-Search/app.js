@@ -60,7 +60,7 @@ function requestUserRepos(username) {
       console.log("Username Not Found.");
       inputForm.reset();
     } else {
-      // searchError.classList.remove("error-visible");
+      searchError.classList.remove("error-visible");
       userName.innerHTML = name;
       if (name === null) {
         userName.innerHTML = tag;

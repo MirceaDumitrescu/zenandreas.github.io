@@ -628,6 +628,13 @@ body {
     padding-top: 3.5rem;
     padding-bottom: 1.5rem;
   }
+  .search-error {
+    position: absolute;
+    color: red;
+    font-weight: bold;
+    right: 22% !important;
+    display: none;
+  }
 }
 
 @media screen and (max-width: 590px) {
@@ -638,11 +645,11 @@ body {
     position: absolute;
     color: red;
     font-weight: bold;
-    display: block !important;
     font-size: 12px;
     -webkit-transform: translateY(100%);
             transform: translateY(100%);
     right: 30% !important;
+    display: none;
   }
   .main-container {
     position: relative;
