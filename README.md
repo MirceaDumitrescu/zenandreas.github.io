@@ -10,6 +10,10 @@ My Linkedin: https://www.linkedin.com/in/mircea-dumitrescu-8581399a/
 
 My Github: https://github.com/zenandreas
 
+**Advanced projects:**
+
+*Github User Search Engine: <a href="https://zenandreas.github.io/GitHub-Search/index.html">Link</a>
+
 **Practice projects:**
 
 *API image searcher <a href="https://zenandreas.github.io/Photon/index.html">Link</a>
