@@ -1,0 +1,29 @@
+@mixin hr {
+  display: block;
+  margin: 3rem 0 -1rem;
+  width: 100%;
+  height: 1px;
+  border: 0;
+  background-color: $blue;
+}
+@mixin h1 {
+  display: inline-block;
+  position: relative;
+  left: 50%;
+  margin: -0.5rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid $blue;
+  transform: translateX(-50%);
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: $letter-spacing;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: $lightBG;
+
+  // Cancel out offset created by letterspacing
+  &::first-letter {
+    margin-left: $letter-spacing;
+  }
+}
