@@ -36,7 +36,7 @@ body {
 .modal-bg .modal {
   background: #edf4f5;
   width: 60%;
-  height: 60%;
+  height: 47%;
   border-radius: 25px;
   -webkit-box-shadow: 0 2px 1px rgba(0, 0, 0, 0.09), 0 4px 2px rgba(0, 0, 0, 0.09), 0 8px 4px rgba(0, 0, 0, 0.09), 0 16px 8px rgba(0, 0, 0, 0.09), 0 32px 16px rgba(0, 0, 0, 0.09);
           box-shadow: 0 2px 1px rgba(0, 0, 0, 0.09), 0 4px 2px rgba(0, 0, 0, 0.09), 0 8px 4px rgba(0, 0, 0, 0.09), 0 16px 8px rgba(0, 0, 0, 0.09), 0 32px 16px rgba(0, 0, 0, 0.09);
@@ -44,11 +44,109 @@ body {
   z-index: 11;
 }
 
-.modal-bg .modal p {
-  padding: 1rem;
+.modal-bg .modal .modal-avatar img {
+  width: 150px;
+  border-radius: 50%;
+  margin: 1rem;
+  position: absolute;
+  border: 3px solid #edf4f5;
+  margin-top: -7rem;
+  margin-left: 4rem;
 }
 
-.modal-bg .modal button {
+.modal-bg .modal .modal-header-banner {
+  width: 100%;
+  height: 200px;
+  background-image: url("/assets/banner.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.modal-bg .modal .subheader-info {
+  padding: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.modal-bg .modal .subheader-info .name-title {
+  width: 60%;
+}
+
+.modal-bg .modal .subheader-info .name-title h1 {
+  font-size: 1.2rem;
+}
+
+.modal-bg .modal .subheader-info .name-title h2 {
+  font-size: 1rem;
+  font-weight: 100;
+}
+
+.modal-bg .modal .subheader-info .name-title h3 {
+  font-size: 0.8rem;
+  font-weight: 100;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 3px;
+}
+
+.modal-bg .modal .subheader-info .name-title h3 span a {
+  text-decoration: none;
+  color: blue;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 1rem;
+}
+
+.modal-bg .modal .subheader-info .name-title h3 span:hover {
+  text-decoration: underline;
+  color: red;
+}
+
+.modal-bg .modal .subheader-info .university {
+  font-weight: bold;
+  font-size: 0.8rem;
+  width: 40%;
+}
+
+.modal-bg .modal .job-openings {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.modal-bg .modal .looking-for-job {
+  background: #e3e4dc;
+  padding: 1rem;
+  margin: 10px;
+  width: 50%;
+  height: 150px;
+  border-radius: 15px;
+}
+
+.modal-bg .modal .looking-for-job h4 {
+  font-weight: regular;
+}
+
+.modal-bg .modal .looking-for-job a {
+  text-decoration: none;
+  color: blue;
+}
+
+.modal-bg .modal .looking-for-job a:hover {
+  text-decoration: underline;
+}
+
+.modal-bg button {
   position: relative;
   float: right;
   border: none;
@@ -60,7 +158,7 @@ body {
   cursor: pointer;
 }
 
-.modal-bg .modal button:hover {
+.modal-bg button:hover {
   background: #f46650;
 }
 
@@ -97,6 +195,16 @@ header .nav-links {
           align-items: center;
 }
 
+header .nav-links .home {
+  position: absolute;
+  height: 5px;
+  width: 60px;
+  margin-top: 1.3rem;
+  margin-left: 0.9rem;
+  border-radius: 10px;
+  background-color: red;
+}
+
 header .nav-links a {
   text-decoration: none;
   color: white;
@@ -115,7 +223,7 @@ header .nav-links a:hover {
   transition: all 0.5s ease;
 }
 
-header .social-list {
+.social-list {
   padding: 1rem;
   padding-top: 2rem;
   list-style-type: none;
@@ -130,24 +238,24 @@ header .social-list {
           align-items: center;
 }
 
-header .social-list svg {
+.social-list svg {
   width: 25px;
   height: 25px;
 }
 
-header .social-list svg path {
+.social-list svg path {
   fill: gray;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
 
-header .social-list svg:hover path {
+.social-list svg:hover path {
   fill: purple;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
 
-header .logo {
+.logo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -159,15 +267,15 @@ header .logo {
           align-items: center;
 }
 
-header .logo .logo-name {
+.logo .logo-name {
   font-family: "Space Mono", monospace;
 }
 
-header .logo .logo-name p {
+.logo .logo-name p {
   color: #55bdca;
 }
 
-header .logo img {
+.logo img {
   display: inline-block;
   width: 100px;
   border-radius: 50%;
@@ -177,8 +285,10 @@ header .logo img {
   cursor: pointer;
 }
 
-header .logo img:hover {
+.logo img:hover {
   width: 105px;
+  -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
@@ -375,18 +485,6 @@ header .logo img:hover {
   width: 100%;
 }
 
-.skills .box-container .box .skill-desc .bar-container:hover .progress {
-  width: 100%;
-  -webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-}
-
-.skills .box-container .box .skill-desc .bar-container:hover .progress span {
-  color: white;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-}
-
 .skills .box-container .box:hover {
   -webkit-transform: scale(102%);
           transform: scale(102%);
@@ -399,5 +497,27 @@ header .logo img:hover {
   transition: all 0.5s ease;
   -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
           box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.skills .box-container .box:hover .bar-container .progress {
+  width: 100%;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.skills .box-container .box:hover .bar-container .progress span {
+  color: white;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.copyright {
+  padding: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 /*# sourceMappingURL=style.css.map */

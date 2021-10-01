@@ -1,0 +1,308 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  background-color: #edf4f5;
+}
+
+header {
+  width: 900px;
+  background-color: #edf4f5;
+  margin: 0rem auto;
+  padding: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+}
+
+header .nav-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .nav-links a {
+  text-decoration: none;
+  color: white;
+  padding: 1rem;
+  margin: 0.5rem;
+  background: #f13c20;
+  width: 150px;
+  border-radius: 10px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+header .nav-links a:hover {
+  background: #d1270d;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+header .social-list {
+  padding: 1rem;
+  padding-top: 2rem;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .social-list svg {
+  width: 25px;
+  height: 25px;
+}
+
+header .social-list svg path {
+  fill: gray;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+header .social-list svg:hover path {
+  fill: purple;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+header .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .logo .logo-name {
+  font-family: "Space Mono", monospace;
+}
+
+header .logo .logo-name p {
+  color: #55bdca;
+}
+
+header .logo img {
+  display: inline-block;
+  width: 100px;
+  border-radius: 50%;
+  margin: 1rem;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.main-container {
+  width: 800px;
+  background-color: #edf4f5;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+.main-container .desc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main-container .desc .description {
+  padding: 1rem;
+}
+
+.main-container .desc .description p {
+  margin: 1rem auto;
+  color: gray;
+}
+
+.main-container .desc hr {
+  display: block;
+  margin: 3rem 0 -1rem;
+  width: 100%;
+  height: 1px;
+  border: 0;
+  background-color: #55bdca;
+}
+
+.main-container .desc h1 {
+  display: inline-block;
+  position: relative;
+  left: 50%;
+  margin: -0.5rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid #55bdca;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 0.32em;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #edf4f5;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.main-container .desc h1::first-letter {
+  margin-left: 0.32em;
+}
+
+.main-container .desc h1:hover {
+  font-size: 1.6rem;
+}
+
+.work-box {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid rgba(0, 0, 0, 0.077);
+  padding: 1rem;
+  margin-top: 1rem;
+  background-color: whitesmoke;
+}
+
+.work-box .work-img {
+  width: 40%;
+  margin: 2rem;
+}
+
+.work-box .work-img .preview {
+  width: 100%;
+  border-radius: 15px;
+  -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.work-box .work-img .preview:hover {
+  -webkit-transform: translateY(-2%);
+          transform: translateY(-2%);
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.work-box .work-img .lang-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 10%;
+}
+
+.work-box .work-img .lang-icons img {
+  height: 35px;
+  width: 100%;
+  margin: 1rem;
+}
+
+.work-box .work-img h1 {
+  padding-bottom: 1rem;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.work-box .work-desc {
+  width: 60%;
+  margin-top: 3rem;
+}
+
+.work-box .work-desc button {
+  border: none;
+  width: 60%;
+  height: 40px;
+  -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  background: #d8e1f8;
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+.work-box .work-desc button:hover {
+  background: #c2d0f4;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.work-box .work-desc a {
+  text-decoration: none;
+  color: blue;
+}
+
+.work-box .work-desc a:hover {
+  text-decoration: underline;
+}
+
+.work-box .work-desc .build-with {
+  font-weight: bold;
+  padding: 0.5rem;
+}
+
+.work-box .work-desc ul {
+  margin-left: 1rem;
+}
+
+.copyright {
+  padding: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=work.css.map */
