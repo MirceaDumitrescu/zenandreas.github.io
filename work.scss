@@ -23,6 +23,15 @@ header {
     display: flex;
     list-style-type: none;
     align-items: center;
+    .home {
+      position: absolute;
+      height: 5px;
+      width: 60px;
+      margin-top: 1.3rem;
+      margin-left: 0.9rem;
+      border-radius: 10px;
+      background-color: red;
+    }
     a {
       text-decoration: none;
       color: white;
