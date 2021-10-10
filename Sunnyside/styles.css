@@ -1,0 +1,629 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f2f2f2;
+}
+
+.website-content {
+  font-family: "Barlow", sans-serif;
+  font-size: 18px;
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.logo {
+  font-weight: 600;
+  font-size: 33px;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.logo:hover {
+  font-size: 33.5px;
+  transition: all 0.3s ease;
+}
+
+nav {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1440px;
+  padding: 2rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 35%;
+  color: white;
+}
+
+.navbar p {
+  cursor: pointer;
+}
+
+.navbar p:hover {
+  opacity: 0.8;
+}
+
+.contact {
+  background: white;
+  color: black;
+  border-radius: 50px;
+  height: 56px;
+  width: 140px;
+  font-family: "Fraunces", serif;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.contact:hover {
+  background: rgb(149, 218, 255);
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.hero {
+  background-image: url(/images/desktop/image-header.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 800px;
+  display: grid;
+  place-content: center;
+  font-family: "Fraunces", serif;
+  color: white;
+}
+
+.hero h1 {
+  position: absolute;
+  margin: 0 auto;
+  margin-top: 195px;
+  letter-spacing: 8.75px;
+}
+.grid-content {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-content h2 {
+  font-family: "Fraunces", serif;
+  font-size: 40px;
+}
+.box-content {
+  padding: 8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 85%;
+  position: relative;
+}
+
+.box-content p {
+  word-spacing: -0.13px;
+  line-height: 30px;
+}
+
+.box {
+  width: 720px;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.box2 {
+  background-image: url(/images/desktop/image-transform.jpg);
+}
+
+.box3 {
+  background-image: url(/images/desktop/image-stand-out.jpg);
+}
+
+.box5 {
+  background-image: url(/images/desktop/image-graphic-design.jpg);
+}
+
+.box5 .box-content,
+.box6 .box-content {
+  justify-content: flex-end;
+  text-align: center;
+  height: 100%;
+  padding: 3rem;
+  width: 70%;
+}
+.box5 h1,
+.box6 h1 {
+  margin-bottom: 3rem;
+}
+
+.box5 p,
+.box6 p {
+  line-height: 30px;
+}
+
+.box6 {
+  background-image: url(/images/desktop/image-photography.jpg);
+}
+
+.box .box-content h3 {
+  z-index: 1;
+  font-family: "Fraunces", serif;
+  cursor: pointer;
+}
+
+.box .box-content h3:hover {
+  color: rgb(69, 69, 69);
+}
+
+.box .box-content .yellow {
+  position: absolute;
+  opacity: 0.2;
+  height: 10px;
+  background: #fad400;
+  border: none;
+  border-radius: 20px;
+  width: 21.5%;
+  bottom: 24%;
+  z-index: 0;
+  pointer-events: none;
+}
+.box .box-content .red {
+  position: absolute;
+  opacity: 0.2;
+  height: 10px;
+  background: hsl(7, 99%, 70%);
+  border: none;
+  border-radius: 20px;
+  width: 21.5%;
+  bottom: 24%;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.testimonials {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  width: 100%;
+  height: 100%;
+}
+
+.clients {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 165px;
+}
+
+.client {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+
+.client .client-desc {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 58px;
+  text-align: center;
+}
+
+.client-name {
+  margin-top: 69px;
+  margin-bottom: 9px;
+  font-family: "Fraunces", serif;
+}
+
+.client-job {
+  line-height: 25px;
+  font-size: 14px;
+  color: #a7aaad;
+}
+
+.client img {
+  border-radius: 50%;
+  height: 72px;
+  width: 72px;
+}
+
+.testimonials h1 {
+  font-family: "Fraunces", serif;
+  font-size: 25px;
+  letter-spacing: 5px;
+  color: #a7aaad;
+  margin-top: 160px;
+  line-height: 100%;
+}
+
+.testimonials p {
+  line-height: 32px;
+  width: 350px;
+}
+
+.footer-images-box {
+  display: flex;
+  width: 100%;
+}
+.footer-images-box img {
+  width: 360px;
+}
+
+.footer-container {
+  background: #90d4c6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 72px;
+}
+
+.footer-container h1 {
+  color: #2c7566;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-nav p {
+  margin: 57px;
+  color: #458d7e;
+  line-height: 25px;
+  cursor: pointer;
+}
+
+.footer-nav p:hover {
+  color: #0f483d;
+}
+
+.social-icons .icon {
+  margin: 28px;
+  cursor: pointer;
+}
+
+.social-icons .fab {
+  color: #2c7566;
+}
+
+.attribution {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+.hamburger-menu,
+.hamburger,
+.ham-nav {
+  display: none;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1440px) {
+  .website-content {
+    width: 768px;
+  }
+  .grid-content {
+    display: flex;
+    flex-direction: column;
+  }
+  .box {
+    width: 768px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .testimonials h1 {
+    margin-top: 64px;
+  }
+  .clients {
+    flex-direction: column;
+    padding: 64px;
+  }
+  .client .client-desc {
+    margin-top: 32px;
+  }
+  .footer-images-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 100%;
+  }
+  .footer-images-box img {
+    width: 100%;
+  }
+  .navbar {
+    display: none;
+  }
+  .hamburger-menu {
+    display: block;
+    font-size: 25px;
+    color: white;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  .hamburger-menu :hover {
+    font-size: 27px;
+    transition: all 0.3s ease;
+  }
+  nav {
+    width: 768px;
+  }
+  /* Hamburger Navigation */
+  .hamburger {
+    display: block;
+  }
+  .ham-nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 22px;
+    margin-right: 24px;
+    margin-top: 90px;
+    width: 722px;
+    z-index: 2;
+    transition: all 0.5s ease;
+    transform: translateY(-100%);
+    pointer-events: none;
+    opacity: 0;
+    display: block;
+  }
+
+  .active {
+    transition: all 0.5s ease;
+    transform: translateY(0);
+    pointer-events: all;
+    opacity: 1;
+  }
+
+  .ham-bg {
+    background: #fffcf8;
+    width: 100%;
+    height: 329px;
+  }
+  .ham-list {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    padding: 3rem;
+  }
+
+  .ham-list p {
+    cursor: pointer;
+    padding: 1rem;
+  }
+
+  .ham-list p:hover {
+    opacity: 0.8;
+  }
+  .triangle {
+    width: 329px;
+    height: 30px;
+  }
+
+  .triangle .arrow {
+    border-bottom: 329px solid white;
+    border-left: 722px solid transparent;
+  }
+
+  .contact-ham {
+    background: #fbd600;
+    color: black;
+    border-radius: 50px;
+    height: 56px;
+    width: 140px;
+    font-family: "Fraunces", serif;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+    transition: all 0.3s ease;
+    margin-top: 1rem;
+  }
+
+  .contact-ham:hover {
+    background: #e69405;
+    color: white;
+    transition: all 0.3s ease;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .website-content {
+    width: 375px;
+  }
+  .grid-content {
+    display: flex;
+    flex-direction: column;
+  }
+  .box {
+    width: 375px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .testimonials h1 {
+    margin-top: 64px;
+  }
+  .clients {
+    flex-direction: column;
+    padding: 64px;
+  }
+  .client .client-desc {
+    margin-top: 32px;
+  }
+  .footer-images-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 100%;
+  }
+  .footer-images-box img {
+    width: 100%;
+  }
+  .navbar {
+    display: none;
+  }
+  .hamburger-menu {
+    display: block;
+    font-size: 25px;
+    color: white;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  .hamburger-menu :hover {
+    font-size: 27px;
+    transition: all 0.3s ease;
+  }
+  nav {
+    width: 375px;
+
+    padding: 1.5rem;
+  }
+  .hero h1 {
+    text-align: center;
+    position: absolute;
+    margin: 0 auto;
+    width: 327px;
+    margin-top: 195px;
+    letter-spacing: 8.75px;
+    z-index: 1;
+  }
+  .box-content {
+    text-align: center;
+    padding: 4rem;
+  }
+  .box .box-content .yellow {
+    width: 30%;
+    bottom: 12%;
+    left: 35%;
+  }
+  .box .box-content .red {
+    width: 30%;
+    bottom: 12%;
+    left: 35%;
+  }
+  .attribution {
+    flex-direction: column;
+  }
+
+  /* Hamburger Navigation */
+  .hamburger {
+    display: block;
+  }
+  .ham-nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 22px;
+    margin-right: 24px;
+    margin-top: 90px;
+    width: 329px;
+    z-index: 2;
+    transition: all 0.5s ease;
+    transform: translateY(-100%);
+    pointer-events: none;
+    opacity: 0;
+    display: block;
+  }
+
+  .active {
+    transition: all 0.5s ease;
+    transform: translateY(0);
+    pointer-events: all;
+    opacity: 1;
+  }
+
+  .ham-bg {
+    background: #fffcf8;
+    width: 100%;
+    height: 329px;
+  }
+  .ham-list {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    padding: 3rem;
+  }
+
+  .ham-list p {
+    cursor: pointer;
+    padding: 1rem;
+  }
+
+  .ham-list p:hover {
+    opacity: 0.8;
+  }
+  .triangle {
+    width: 329px;
+    height: 30px;
+  }
+
+  .triangle .arrow {
+    border-bottom: 329px solid white;
+    border-left: 329px solid transparent;
+  }
+
+  .contact-ham {
+    background: #fbd600;
+    color: black;
+    border-radius: 50px;
+    height: 56px;
+    width: 140px;
+    font-family: "Fraunces", serif;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+    transition: all 0.3s ease;
+    margin-top: 1rem;
+  }
+
+  .contact-ham:hover {
+    background: #e69405;
+    color: white;
+    transition: all 0.3s ease;
+  }
+}
