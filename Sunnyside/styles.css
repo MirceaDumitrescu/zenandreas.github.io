@@ -75,7 +75,7 @@ nav {
 }
 
 .hero {
-  background-image: url(/images/desktop/image-header.jpg);
+  background-image: url(./images/desktop/image-header.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -134,15 +134,15 @@ nav {
 }
 
 .box2 {
-  background-image: url(/images/desktop/image-transform.jpg);
+  background-image: url(./images/desktop/image-transform.jpg);
 }
 
 .box3 {
-  background-image: url(/images/desktop/image-stand-out.jpg);
+  background-image: url(./images/desktop/image-stand-out.jpg);
 }
 
 .box5 {
-  background-image: url(/images/desktop/image-graphic-design.jpg);
+  background-image: url(./images/desktop/image-graphic-design.jpg);
 }
 
 .box5 .box-content,
@@ -164,7 +164,7 @@ nav {
 }
 
 .box6 {
-  background-image: url(/images/desktop/image-photography.jpg);
+  background-image: url(./images/desktop/image-photography.jpg);
 }
 
 .box .box-content h3 {
